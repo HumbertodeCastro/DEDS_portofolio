@@ -322,13 +322,13 @@ woff = ["brotli (>=1.0.1)", "brotlicffi (>=0.8.0)", "zopfli (>=0.1.4)"]
 
 [[package]]
 name = "ipykernel"
-version = "6.29.2"
+version = "6.29.4"
 description = "IPython Kernel for Jupyter"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "ipykernel-6.29.2-py3-none-any.whl", hash = "sha256:50384f5c577a260a1d53f1f59a828c7266d321c9b7d00d345693783f66616055"},
-    {file = "ipykernel-6.29.2.tar.gz", hash = "sha256:3bade28004e3ff624ed57974948116670604ac5f676d12339693f3142176d3f0"},
+    {file = "ipykernel-6.29.4-py3-none-any.whl", hash = "sha256:1181e653d95c6808039c509ef8e67c4126b3b3af7781496c7cbfb5ed938a27da"},
+    {file = "ipykernel-6.29.4.tar.gz", hash = "sha256:3d44070060f9475ac2092b760123fadf105d2e2493c24848b6691a7c4f42af5c"},
 ]
 
 [package.dependencies]
@@ -351,7 +351,7 @@ cov = ["coverage[toml]", "curio", "matplotlib", "pytest-cov", "trio"]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinx-autodoc-typehints", "sphinxcontrib-github-alt", "sphinxcontrib-spelling", "trio"]
 pyqt5 = ["pyqt5"]
 pyside6 = ["pyside6"]
-test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio (==0.23.4)", "pytest-cov", "pytest-timeout"]
+test = ["flaky", "ipyparallel", "pre-commit", "pytest (>=7.0)", "pytest-asyncio (>=0.23.5)", "pytest-cov", "pytest-timeout"]
 
 [[package]]
 name = "ipython"
@@ -1420,4 +1420,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "d352a7299489ac341c375edeb73ddd5dd6adc11fe388d688cca790f045ca4574"
+content-hash = "fdc910c1b2d1ceac96bca57b1d6b51ff2708632a0201b57902d73210128b8b90"
